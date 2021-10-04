@@ -1,0 +1,23 @@
+* {
+   margin: 2px;
+   padding: 4px;
+   box-sizing: inherit;
+}
+
+
+body {
+   font-family: sans-serif;
+   color: rgb(255, 255, 255);
+   line-height: 1.5;
+   height: 50vh;
+   position: relative;
+   justify-content: center;
+   background: linear-gradient(to top left, #28b487, #7dd56f);
+
+ }
+ 
+ .container {
+    margin-top: 350px;
+ }
+
+ 

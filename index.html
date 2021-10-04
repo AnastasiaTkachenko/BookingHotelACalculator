@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+<body>
+   <h1>Calculadora Secuencial</h1>
+   <input type="text" id="input" placeholder="number">
+   <button id="sum">+</button>
+   <button id="substraction">-</button>
+   <button id="divide">/</button>
+   <button id="multiply">*</button>  
+   <button id="equals">=</button>
+   <span id="result"></span>
+
+ 
+   <div class="container">
+      <label for="cat">Choose a category:</label>
+        <select name="category" id="cat"> 
+        <option value="standard">Standard</option>
+        <option value="juniorSuite">Junior Suite</option>
+        <option value="suite">Suite</option>
+       </select>
+       
+      
+      <label for="spa">SPA</label>
+      <input type="checkbox" name="SPA" id="spa">
+       
+      <label for="occupancy">Choose room occupancy:</label>
+      <select name="occupancy" id="occupancy">
+         <option value="individual">Individual</option>
+         <option value="double">Double</option>
+         <option value="triple">Triple</option>
+        </select>
+      
+        <label for="nights">How many nights:</label>
+        <input type="number" name="nights" id="nights">
+      
+        <label for="car-nights"> Parking place nights:</label>
+        <input type="number" name="carNights" id="carNights">
+      
+      <button id='calculate' type="submit">Calculate</button>
+      <span id="showResult"></span>
+      </div>
+   <script src="script.js"></script>
+
+</body>
+</html>
+
+
